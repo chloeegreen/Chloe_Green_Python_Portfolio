@@ -1003,6 +1003,7 @@ print('Omitting ending index:', sond)
     Omitting ending index: ['sep', 'oct', 'nov', 'dec']
 
 ## Using Loops
+The error in this loop is purposeful.
 
 ```python
 odds = [1,3,5,7]
