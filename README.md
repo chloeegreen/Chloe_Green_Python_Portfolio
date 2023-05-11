@@ -1440,7 +1440,7 @@ temp_kelvin = fahr_to_kelvin(temp_fahr)
 
 print_temperatures()
 ```
-This is the second file for creating functions. There are multiple video completions included in this:
+This is the second file for creating functions. There are multiple video completions included in this. The error in this is purposeful:
 
 ```python
 import numpy
