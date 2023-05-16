@@ -1844,6 +1844,7 @@ print(normalize_rectangle( (0.0, 0.0, 5.0, 1.0) ))
 ```
 
 ## Transcription
+I did the SHOX gene for my reads.
 
 ```python
 # Prompt the user to enter the input fasta file name
@@ -1907,6 +1908,7 @@ print(rna_sequence)
 
 
 ## Translation
+I continued with the SHOX gene for my reads.
 
 ```python
 # prompt user to enter the imput RNA file name
