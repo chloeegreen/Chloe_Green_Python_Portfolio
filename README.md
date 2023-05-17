@@ -1512,7 +1512,7 @@ print_temperatures()
     Temperature in Kelvin was: 373.15
 
 
-This is the second file for creating functions. There are multiple video completions included in this. The error in this is purposeful:
+This is the second file for creating functions. There are multiple video completions included in this. :
 
 ```python
 import numpy
@@ -2048,13 +2048,14 @@ for num in numbers:
     assert num > 0.0, 'Data should only contain positive values'
     total += num
 print('total is:', total)
-``
+```
+
 
     ---------------------------------------------------------------------------
 
     AssertionError                            Traceback (most recent call last)
 
-    <ipython-input-1-13c7d5640ddd> in <module>
+    <ipython-input-5-13c7d5640ddd> in <module>
           2 total = 0.0
           3 for num in numbers:
     ----> 4     assert num > 0.0, 'Data should only contain positive values'
@@ -2097,19 +2098,55 @@ print(normalize_rectangle( (0.0, 1.0, 2.0))
 ```
 
 
+      File "<ipython-input-7-1ede924809f6>", line 1
+        print(normalize_rectangle( (0.0, 1.0, 2.0))
+                                                   ^
+    SyntaxError: unexpected EOF while parsing
+
+
+
+
 ```python
 print(normalize_rectangle( (4.0, 2.0, 1.0, 5.0) ))
 ```
+
+
+    ---------------------------------------------------------------------------
+
+    AssertionError                            Traceback (most recent call last)
+
+    <ipython-input-8-f7e0d48bdfd0> in <module>
+    ----> 1 print(normalize_rectangle( (4.0, 2.0, 1.0, 5.0) ))
+    
+
+    <ipython-input-6-ca285ed55959> in normalize_rectangle(rect)
+          5     assert len(rect) == 4, 'Rectangles must contain 4 coordinates'
+          6     x0, y0, x1, y1 = rect
+    ----> 7     assert x0 < x1, 'Invalid X coordinates'
+          8     assert y0 < y1, 'Invalid Y coordinates'
+          9 
+
+
+    AssertionError: Invalid X coordinates
+
 
 
 ```python
 print(normalize_rectangle( (0.0, 0.0, 1.0, 5.0) ))
 ```
 
+    (0, 0, 0.2, 1.0)
+
+
 
 ```python
 print(normalize_rectangle( (0.0, 0.0, 5.0, 1.0) ))
 ```
+
+    (0, 0, 1.0, 0.2)
+
+
+
 
 ## Transcription
 I did the SHOX gene for my reads.
@@ -2262,7 +2299,7 @@ print(protein_sequence)
 
      MEELTAFVSKSFDQKSKDGNGGGGGGGGKKDSITYREVLESGLARSRELGTSDSSLQDITEGGGHCPVHLFKDHVDNDKEKLKEFGTARVAEGIYECKEKREDVKSEDEDGQTKLKQRRSRTNFTLEQLNELERLFDETHYPDAFMREELSQRLGLSEARVQVWFQNRRAKCRKQENQMHKGVILGTANHLDACRVAPYVNMGALRMPFQQMEFCSCRPGWSIMA
 
-
+## That's All Folks!
 
 
 
