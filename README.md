@@ -2048,8 +2048,7 @@ for num in numbers:
     assert num > 0.0, 'Data should only contain positive values'
     total += num
 print('total is:', total)
-```
-
+``
 
     ---------------------------------------------------------------------------
 
