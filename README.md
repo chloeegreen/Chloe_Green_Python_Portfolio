@@ -1133,6 +1133,16 @@ odds = [1, 3, 5, 7, 9, 11, 13, 15, 17, 19]
 for num in odds: 
     print(num)
 ```
+    1
+    3
+    5
+    7
+    9
+    11
+    13
+    15
+    17
+    19
 
 
 ```python
@@ -1142,6 +1152,8 @@ for value in names:
     length = length + 1
 print('There are', length, 'names in the list.')
 ```
+
+    There are 3 names in the list.
 
 
 ```python
