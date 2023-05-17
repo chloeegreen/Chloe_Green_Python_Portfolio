@@ -878,8 +878,7 @@ matplotlib.pyplot.show()
 ```
 
 
-![output_1_0](https://github.com/chloeegreen/Chloe_Green_Python_Portfolio/assets/133056315/5baaa7dd-8778-47d6-bcc4-136d55581162)
-
+![output_2_0](https://github.com/chloeegreen/Chloe_Green_Python_Portfolio/assets/133056315/5132f0bc-2b72-4415-84ad-96259699e13c)
 
 
 ```python
